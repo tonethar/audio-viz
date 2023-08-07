@@ -1,0 +1,31 @@
+{
+  "name": "audioviz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --watch",
+    "lint" : "npx eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "eslint-config-standard-with-typescript": "^35.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.1.3",
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3",
+    "webpack-dev-server": "^4.15.0"
+  },
+  "dependencies": {
+    "@types/fscreen": "^1.0.1",
+    "fscreen": "^1.2.0"
+  }
+}

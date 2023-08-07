@@ -1,0 +1,40 @@
+body {
+  background: #eeeeee;
+  font-family: tahoma, verdana, sans serif;
+}
+
+canvas {
+  margin: 1rem;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+  background: #fafafa;
+}
+
+#controls{
+  margin-left: 1rem;
+}
+
+#lbl-volume{
+  margin-left: 1rem;
+}
+
+section{
+  margin-bottom: 1rem;
+}
+
+#btn-play{
+  font-size: 1.2rem;
+  width: 6rem;
+}
+
+#btn-play[data-playing="yes"]:after{
+  content: "Pause";
+}
+
+#btn-play[data-playing="no"]:after{
+  content: "Play";
+}
+
+#btn-fs{
+  font-size: 1.2rem;
+  width: 8rem;
+}
